@@ -1,1 +1,33 @@
-/* место для вашего кода */
+.content-section {
+  width: 1440px;
+  margin: auto;
+  min-height: 100px;
+}
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  height: 757px;
+  padding: 0 50px;
+}
+
+.cover__title {
+  color: #FFF;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 45px;
+  text-transform: uppercase;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
