@@ -52,29 +52,73 @@
   background-image: url(../images/cover.jpg);
   background-size: cover;
   height: 757px;
-  padding: 165px 50px 0;
+  padding: 172px 23px 0 50px;
+  position: relative;
+}
+
+.overlay {
+  background: rgb(0 0 0 / 0.5);
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .cover__title {
+  position: relative;
   color: #fff;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
   line-height: 1;
-  letter-spacing: 60px;
+  letter-spacing: 30px;
   text-transform: uppercase;
 }
 
 .accent-span {
   display: block;
+  margin-bottom: 25px;
 }
 
 .text-center {
   text-align: center;
+  padding-right: 25px;
 }
 
 .text-right {
   text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.cover__description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 80px;
+  justify-content: end;
+  align-items: center;
+  padding-top: 110px;
+}
+
+.cover__description-text {
+  color: #fff;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  border: 1px solid #fff;
+  background: none;
+  padding: 10px 30px;
+  margin-right: 25px;
+}
+
+.no-letter-spacing {
+  word-spacing: 0;
 }
 
 .lots {
@@ -95,6 +139,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
 }
 
 .card h3 {
@@ -104,6 +149,7 @@
   line-height: 120%;
   text-decoration-line: underline;
   text-transform: uppercase;
+  position: relative;
 }
 
 .card p {
@@ -111,6 +157,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
+  position: relative;
 }
 
 .card__left {

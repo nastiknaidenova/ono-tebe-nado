@@ -24,7 +24,7 @@
           </li>
         </ul>
       </nav>
-      <a class="header__logo">
+      <a class="header__logo" href="#0">
         <img
           class="header__logo-image"
           src="images/logo-black.svg"
@@ -39,11 +39,26 @@
     </header>
     <main>
       <section class="cover content-section">
+        <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="accent-span">оно</span>
-          <span class="accent-span text-center">тебе</span>
-          <span class="accent-span text-right">надо</span>
+          <span class="accent-span"
+            >о<span class="letter-spacing-extended">но</span></span
+          >
+          <span class="accent-span text-center"
+            >те<span class="letter-spacing-extended">бе</span></span
+          >
+          <span class="accent-span text-right"
+            ><span class="letter-spacing-extended">н</span>адо</span
+          >
         </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="bet-button cover__description-text no-letter-spacing">
+            Сделать ставку
+          </button>
+        </div>
       </section>
       <section section class="lots content-section">
         <div class="lots__header">
@@ -51,6 +66,7 @@
         </div>
         <div class="lots__content">
           <article class="card card__left">
+            <div class="overlay"></div>
             <h3>Фильм режиссёра, который бросил киношколу</h3>
             <p>
               Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
@@ -58,6 +74,7 @@
             </p>
           </article>
           <article class="card card__center">
+            <div class="overlay"></div>
             <h3>
               Книга, где описан один скучный день из жизни рекламного агента
             </h3>
@@ -70,6 +87,7 @@
             </p>
           </article>
           <article class="card card__right">
+            <div class="overlay"></div>
             <h3>Картина, которую повторит даже 5-летний сын маминой подруги</h3>
             <p>
               Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то
