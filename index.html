@@ -31,31 +31,39 @@
           alt="Логотип проекта"
         />
       </a>
-      <address class="header__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a><br />
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
-        <p>наб. Принсенграхт 263-265, Амстердам</p>
-      </address>
+      <div class="header__address">
+        <address class="address">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p>наб. Принсенграхт 263-265, Амстердам</p>
+        </address>
+      </div>
     </header>
     <main>
       <section class="cover content-section">
         <div class="overlay"></div>
         <h1 class="cover__title">
-          <span class="accent-span"
+          <span class="accent-span text-left"
             >о<span class="letter-spacing-extended">но</span></span
           >
           <span class="accent-span text-center"
             >те<span class="letter-spacing-extended">бе</span></span
           >
-          <span class="accent-span text-right"
-            ><span class="letter-spacing-extended">н</span>адо</span
+          <span class="accent-span text-right">
+            <span class="letter-spacing-extended">н</span>ад<span
+              class="no-letter-spacing"
+              >о
+            </span></span
           >
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button cover__description-text no-letter-spacing">
+          <button
+            type="button"
+            class="bet-button cover__description-text no-word-spacing"
+          >
             Сделать ставку
           </button>
         </div>
@@ -147,9 +155,9 @@
       </section>
     </main>
     <footer class="footer content-section">
-      <address class="footer__address">
-        <a href="tel:+99995555555">+9 999 555 5555</a><br />
-        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a><br />
+      <address class="address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p>наб. Принсенграхт 263-265, Амстердам</p>
       </address>
       <nav class="footer__menu">
@@ -179,7 +187,7 @@
         </li>
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#0">
-            <img class="footer__social-icone" src="images/vk.svg" alt="VK" />
+            <img class="footer__social-icon" src="images/vk.svg" alt="VK" />
           </a>
         </li>
         <li class="footer__social-list-item">
